@@ -1,18 +1,21 @@
+/**
+ * This class demonstrates the basics of static methods:
+ *  - input: parameters
+ *  - output: return values
+ *
+ */
 public class MethodToMyMadness {
 
     public static void main(String[] args) {
-        System.out.println("Hi");
-        System.out.println("Yo");
 
-        String yourName = "Kat";
-        String myName = "Dave";
+        String kat = "Kat";
+        String zo = "Zo";
 
-        printMessage(myName);
+        printGreeting("Ahmad");
+        printGreeting(zo);
     }
 
-    public static void printMessage(String name) {
-
-        System.out.println(name);
+    public static void printGreeting(String name) {
+        System.out.println("Hey, " + name);
     }
-
 }

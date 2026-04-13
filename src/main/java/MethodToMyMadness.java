@@ -11,8 +11,13 @@ public class MethodToMyMadness {
         String kat = "Kat";
         String zo = "Zo";
 
-        printGreeting("Ahmad");
-        printGreeting(zo);
+        String formatedName = formatName("Ben", "Franklin");
+        System.out.println( formatedName );
+    }
+
+    public static String formatName(String firstName, String lastName) {
+        String result = firstName + " " + lastName;
+        return result;
     }
 
     public static void printGreeting(String name) {

@@ -28,7 +28,6 @@ public class InputApp {
     public static void doAdd(Scanner scannerParam) {
         double num1 = getDouble("Enter 1st number: ");
 
-
         System.out.print("Enter 2nd number: ");
         double num2 = scannerParam.nextDouble();
         double sum = num1 + num2;
